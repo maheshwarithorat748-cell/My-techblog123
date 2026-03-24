@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>My Tech Blog</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <style>
+ body {
+ margin: 0;
+ font-family: Arial, sans-serif;
+ background-color: #fdf6f9; 
+ color: #444;
+ }
+ header {
+ background-color: #c8d8f8; 
+ color: #333;
+ text-align: center;
+ padding: 30px;
+ }
+ nav {
+ background-color: #e6ecff; 
+ text-align: center;
+ padding: 12px;
+ }
+ nav a {
+ color: #555;
+ text-decoration: none;
+ margin: 15px;
+ font-weight: bold;
+ }
+ nav a:hover {
+ color: #a084dc; 
+ }
+ .container {
+ width: 80%;
+ margin: auto;
+ padding: 20px;
+ }
+ .blog-post {
+ background: #ffffff;
+ padding: 20px;
+ margin-bottom: 20px;
+ border-radius: 10px;
+ box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+ }
+ .blog-post h2 {
+ color: #7a6c9d; 
+ }
+ footer {
+ background-color: #c8d8f8;
+ color: #333;
+ text-align: center;
+ padding: 15px;
+ }
+ @media (max-width: 768px) {
+ .container {
+ width: 95%;
+ }
+ }
+ </style>
+</head>
+<body>
+<header>
+ <h1>My Tech Blog</h1>
+ <p>Sharing Knowledge About Web Development</p>
+</header>
+<nav>
+ <a href="#">Home</a>
+ <a href="#">Articles</a>
+ <a href="#">About</a>
+ <a href="#">Contact</a>
+</nav>
+<div class="container">
+ <div class="blog-post">
+ <h2>What is HTML?</h2>
+ <p>HTML stands for HyperText Markup Language. It is used to create the 
+structure of web pages.</p>
+ </div>
+ <div class="blog-post">
+ <h2>What is CSS?</h2>
+ <p>CSS stands for Cascading Style Sheets. It is used to style and design 
+web pages.</p>
+ </div>
+ <div class="blog-post">
+ <h2>What is Responsive Design?</h2>
+ <p>Responsive design ensures that a website looks good on all devices like 
+mobiles, tablets and desktops.</p>
+ </div>
+</div>
+<footer>
+ <p>© 2026 My Tech Blog | All Rights Reserved</p>
+</footer>
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+    <title>SSVPS College</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+        body
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        header
+        {
+            background-color: #1e3c72;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav
+        {
+            background: #162b5c;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav a
+        {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+        }
+
+        nav a:hover
+        {
+            background: #ff9800;
+        }
+
+        .hero
+        {
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .about
+        {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .courses
+        {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 40px 20px;
+        }
+
+        .course-card
+        {
+            background: white;
+            width: 30%;
+            min-width: 250px;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        .course-card:hover
+        {
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+
+        .contact
+        {
+            background: #e8eef5;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        input, textarea
+        {
+            width: 60%;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        button
+        {
+            padding: 10px 20px;
+            background: #1e3c72;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover
+        {
+            background: #ff9800;
+        }
+
+        footer
+        {
+            background: #1e3c72;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 768px)
+        {
+            .courses
+            {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>SSVPS College</h1>
+        <p>Shri Shivaji Vidya Prasarak Sanstha</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Courses</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Welcome to SSVPS College</h2>
+        <p>Empowering students for a bright future</p>
+    </section>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p>SSVPS College provides quality education in science, commerce and computer science with modern infrastructure and experienced faculty.</p>
+    </section>
+
+    <section class="courses">
+        
+        <div class="course-card">
+            <h3>BSc Computer Science</h3>
+            <p>Learn programming, AI, data science and software development.</p>
+        </div>
+
+        <div class="course-card">
+            <h3>BCom</h3>
+            <p>Build strong foundation in finance, accounting and business.</p>
+        </div>
+
+        <div class="course-card">
+            <h3>BA</h3>
+            <p>Explore arts, humanities and social sciences.</p>
+        </div>
+
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+
+        <input type="text" placeholder="Enter your Name"><br>
+        <input type="email" placeholder="Enter your Email"><br>
+        <textarea rows="4" placeholder="Enter your Message"></textarea><br>
+
+        <button>Submit</button>
+    </section>
+
+    <footer>
+        <p>© 2026 SSVPS College. All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
